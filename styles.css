@@ -3,3 +3,135 @@ body {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+h1 {
+  text-align: center;
+}
+
+p {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#new-book-form {
+  display: none;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #242526;
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.form-field {
+  background-color: #3a3b3c;
+  border: 0;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+#new-book-form label {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#new-book-button,
+#hide-button {
+  display: block;
+  margin: 0 auto;
+  background-color: #2d88ff33;
+  border: 0;
+  color: #2E89FF;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  outline: none;
+  margin-bottom: 20px;
+}
+
+#new-book-button:hover {
+  cursor: pointer;
+  background-color: #1653a233;
+}
+
+#hide-button {
+  background-color: #ff2d2d33;
+  color: #b91f1f;
+}
+
+#hide-button:hover,
+.book button:hover {
+  cursor: pointer;
+  background-color: #a2161633;
+}
+
+#add-book-button {
+  background-color: #42b72a;
+  border: 0;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  outline: none;
+}
+
+#add-book-button:hover {
+  cursor: pointer;
+  background-color: #1fb700;
+}
+
+#books {
+  display: flex;
+  flex-direction: column-reverse;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.book {
+  margin-bottom: 20px;
+  background-color: #242526;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.book button {
+  background-color: #ff2d2d33;
+  border: 0;
+  color: #b91f1f;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  outline: none;
+  float: right;
+}
+
+#read-status-true {
+  background-color: #2dff5033;
+  color: #1fb933;
+  float: left;
+}
+
+#read-status-true:hover {
+  background-color: #1aa23133;
+  cursor: pointer;
+}
+
+#read-status-false {
+  background-color: #f9f9f933;
+  color: #bbbbbb;
+  float: left;
+}
+
+#read-status-false:hover {
+  background-color: #8a8a8a33;
+  cursor: pointer;
+}
